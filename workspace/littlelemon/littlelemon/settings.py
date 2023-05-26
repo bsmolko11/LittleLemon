@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "restaurant",
+    'restaurant',
     "rest_framework",
     "djoser",
     "rest_framework.authtoken",
@@ -141,3 +141,7 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.SessionAuthentication',
     ],
 }
+
+TESTS = [
+    'tests',  
+]
